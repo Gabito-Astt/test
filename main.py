@@ -2,7 +2,7 @@ from machine import Pin
 from time import sleep as t
 
 l = Pin(2, Pin.OUT)
-interval = 0.5
+interval = 2
 
 while True:
     l.off()
