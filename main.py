@@ -6,8 +6,8 @@ interval = 2
 
 while True:
     l.off()
-    print('Led OFF')
+    print('Led APAGADO')
     t(interval)
     l.on()
-    print('Led ON')
+    print('Led ENCENDIDO')
     t(interval)
